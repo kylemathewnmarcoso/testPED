@@ -1,5 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
 <script>
 function myFunction() {
 	var url = "https://enterprise.google.com/android/enroll?et=STHAKISLJOTUTAKWPXGP";
@@ -8,6 +27,6 @@ function myFunction() {
 </script>
 <body>
 <h1>TEST 123 </h1>
-<button onclick="myFunction()">TEST</button>
+<button onclick="myFunction()" class="block">TEST</button>
 </body>
 </html>
